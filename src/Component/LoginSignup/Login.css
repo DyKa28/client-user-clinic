@@ -1,0 +1,130 @@
+.login {
+  padding-top: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.main {
+  /* padding-top: 100px; */
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  height: 600px;
+  /* border: solid 1px; */
+  box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .14);
+
+}
+
+.left_login {
+  background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(176,229,208,1) 42%, rgba(92,202,238,0.41) 93.6% );
+  width: 400px;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.left_login h1 {
+  margin: 10px;
+  color: rgb(46, 199, 87);
+  font-family: Helvetica;
+}
+
+.left_login img {
+  height: 200px;
+  width: 300px;
+  /* object-fit: contain;
+  mix-blend-mode: color-burn; */
+}
+
+.right_login {
+  /* padding-top: 100px; */
+}
+
+.container {
+  width: 400px;
+  background-color: #fff;
+  box-sizing: border-box;
+  /* box-shadow: 0 3px 10px 0 rgba(0, 0, 0, .14); */
+  border-radius: 4px;
+  justify-content: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.container_header {
+  width: 100%;
+}
+
+.container_header h2 {
+  /* font-size: 16px; */
+  /* padding-top: 5px; */
+  color: rgb(46, 199, 87);
+
+}
+
+.container_center {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_logins {
+  margin-top: 15px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_login {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 350px;
+  height: 50px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+
+.form_login input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  height: 50px;
+  width: 350px;
+  color: #797979;
+  font-size: 19px;
+}
+
+.icon {
+  margin: 0px 30px;
+}
+
+.btn_login {
+  padding-top: 20px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn_login button {
+  height: 40px;
+  /* padding: 0 0.625rem; */
+  width: 200px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  /* padding: 15px 20px */
+  /* overflow: hidden; */
+  border-radius: 5px;
+}
+
+.container_bottom a:focus{
+  /* text-decoration: none; */
+  /* color: blue; */
+  outline: 0;
+}
